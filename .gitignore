@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Excel lock/temp files
+~$*.xls*
+*.tmp
+
+# Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Local (non-redistributable) Synchro exports.
+# Real samples stay on the user's machine; sanitized fixtures under
+# tests/fixtures/ are what the committed tests run against.
+/Sample/
